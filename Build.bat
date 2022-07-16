@@ -1,0 +1,3 @@
+@echo Building GLFW Application...
+g++ -o mandelbrot.exe ./src/main.cpp ./src/glad.c -L. -lglfw3 -lopengl32 -lgdi32 
+.\mandelbrot.exe

@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",    
+    "tasks": [
+        {
+            "label": "Build Application Task",
+            "type": "shell",
+            "command": ".\\Build.bat",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
